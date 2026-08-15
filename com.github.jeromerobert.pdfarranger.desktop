@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=PDF Arranger
+Comment=Merge, split, rotate and rearrange PDF documents.
+Exec=pdfarranger %F
+Icon=pdfarranger
+Terminal=false
+Categories=Office;Graphics;
