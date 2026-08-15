@@ -17,11 +17,11 @@
   "override": {
     "socketX11": true,
     "socketWayland": true,
-    "socketPulseAudio": true,
+    "socketPulseAudio": false,
     "socketSessionBus": true,
     "socketSystemBus": false,
     "socketSshAgent": false,
-    "socketCups": true,
+    "socketCups": false,
     "socketGpgAgent": false,
     "socketAtSpiBus": true,
     "socketBluetooth": false,
@@ -36,8 +36,8 @@
     "deviceInput": false,
     "deviceTTY": false,
     "deviceAll": false,
-    "notification": true,
-    "openURI": true,
+    "notification": false,
+    "openURI": false,
     "hostApplications": false,
     "hostActions": [],
     "filesystem": [
@@ -48,22 +48,10 @@
       {
         "path": "xdg-download",
         "access": "read-write"
-      },
-      {
-        "path": "xdg-music",
-        "access": "read-write"
-      },
-      {
-        "path": "xdg-pictures",
-        "access": "read-write"
-      },
-      {
-        "path": "xdg-videos",
-        "access": "read-write"
       }
     ],
     "env": [],
-    "network": true,
+    "network": false,
     "process": false,
     "userNamespaces": false,
     "memoryMaxMB": 0,

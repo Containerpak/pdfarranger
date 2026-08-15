@@ -7,3 +7,4 @@ RUN apt-get update && \
     cpak-clean-junk
 
 COPY com.github.jeromerobert.pdfarranger.desktop /usr/share/applications/com.github.jeromerobert.pdfarranger.desktop
+COPY icon.png /usr/share/icons/hicolor/128x128/apps/pdfarranger.png
