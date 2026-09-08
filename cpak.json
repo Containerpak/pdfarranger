@@ -4,7 +4,7 @@
   "name": "PDF Arranger",
   "description": "Merge, split, rotate and rearrange PDF documents.",
   "version": "1.13.0",
-  "image": "ghcr.io/containerpak/pdfarranger@sha256:84e2da8029176c38deb44673a9ae1b58e4a253b2474402d17c6b9936d4630fc8",
+  "image": "ghcr.io/containerpak/pdfarranger@sha256:352b2b33f7255b13209a3774dbee0f2515a3af9e22129060de6a349b43c0bb50",
   "binaries": [
     "/usr/bin/pdfarranger"
   ],
